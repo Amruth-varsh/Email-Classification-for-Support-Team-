@@ -1,6 +1,6 @@
-# Email Classification System
+# Email Classification for Support Team
 
-This project implements an email classification system for a company's support team. The system categorizes incoming support emails into predefined categories while masking personal information (PII) before processing.
+This project implements an email classification for Support Team for a company's support team. The system categorizes incoming support emails into predefined categories while masking personal information (PII) before processing.
 
 ## Features
 
@@ -54,6 +54,13 @@ You can test the classification directly from the command line:
 
 ```
 python app.py --test "Hello, my name is John Doe and I'm having issues with my billing."
+
+```
+### Deployment link 
+
+```
+https://huggingface.co/spaces/Amruthvarsh/email-classification
+
 ```
 
 ### API Endpoints
